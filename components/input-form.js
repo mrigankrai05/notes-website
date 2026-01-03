@@ -77,7 +77,7 @@ export default function InputForm({ notes }) {
 
             const updatedNote = {
                 ...response.data,
-                id: response.data._id, 
+                id: response.data._id,
             };
 
             setNotes(
@@ -210,7 +210,7 @@ export default function InputForm({ notes }) {
                         }
                     </div> : <>
                         <div className="mt-10 flex justify-center">
-                            <div className="rounded-2xl border border-dashed border-black/10 dark:border-white/15 bg-black/[0.02] dark:bg-white/[0.03] px-6 py-4">
+                            <div className="rounded-2xl border border-dashed border-black/10 dark:border-white/15 bg-black/2 dark:bg-white/3 px-6 py-4">
                                 <h3 className="text-center text-base font-medium text-white dark:text-gray-100">
                                     No notes yet. Create one above 👆
                                 </h3>
